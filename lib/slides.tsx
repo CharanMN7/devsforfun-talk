@@ -1296,7 +1296,7 @@ This year, ship one thing publicly. Could be a tiny SaaS, a Chrome extension, a 
     title: "Questions + connect",
     onScreenText: [
       "QR code → workshop materials folder",
-      "Handles: @charan.dev or devsforfun.com",
+      "Instagram: @iam.charan.dev",
       "Build something this week. The gap between thinking and shipping is where everything you want lives.",
     ],
     onScreen: (
@@ -1309,9 +1309,7 @@ This year, ship one thing publicly. Could be a tiny SaaS, a Chrome extension, a 
           QR code
         </div>
         <p className="mt-8 text-lg sm:text-xl">
-          <span className="font-mono">@charan.dev</span>{" "}
-          <span className="text-muted-foreground">·</span>{" "}
-          <span className="font-mono">devsforfun.com</span>
+          <span className="font-mono">@iam.charan.dev</span>
         </p>
         <p className="mt-12 max-w-2xl text-balance text-lg text-muted-foreground sm:text-xl">
           Build something this week. The gap between thinking and shipping is where everything you
