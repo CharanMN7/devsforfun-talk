@@ -114,7 +114,7 @@ export function Deck({ slides }: Props) {
         <p className="mb-6 font-mono text-xs uppercase tracking-widest text-muted-foreground sm:text-sm">
           {slide.segment}
         </p>
-        <div className="flex-1">{slide.onScreen}</div>
+        <div>{slide.onScreen}</div>
       </div>
 
       {/* Footer chrome. */}
