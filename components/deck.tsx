@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import Link from "next/link";
 import type { Slide } from "@/lib/slides";
 import { cn } from "@/lib/cn";
 
@@ -123,14 +122,6 @@ export function Deck({ slides }: Props) {
         <span className="font-mono tabular-nums">
           {slide.number} / {total}
         </span>
-        <Link
-          href={`/notes#slide-${slide.number}`}
-          target="_blank"
-          rel="noopener"
-          className="pointer-events-auto rounded-md border border-border bg-card px-3 py-1.5 font-medium text-foreground transition hover:bg-muted"
-        >
-          Notes →
-        </Link>
       </footer>
 
       <style>{`
